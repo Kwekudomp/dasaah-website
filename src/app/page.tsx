@@ -4,8 +4,8 @@ export default function Home() {
       <h1 className="font-heading text-4xl font-bold text-amber">
         Dasaah Company Limited
       </h1>
-      <p className="mt-4 text-slate-custom">
-        Construction, Procurement &amp; Services
+      <p className="mt-4 text-brand-slate">
+        Construction, Procurement & Services
       </p>
     </main>
   );

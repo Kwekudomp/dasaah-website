@@ -2,9 +2,9 @@
 
 @theme inline {
   --color-navy: #0A1628;
-  --color-navy-light: #1E3A5F;
+  --color-steel-blue: #1E3A5F;
   --color-amber: #D4A843;
-  --color-slate-custom: #94A3B8;
+  --color-brand-slate: #94A3B8;
   --color-offwhite: #F8F9FA;
 
   --font-heading: var(--font-jakarta), sans-serif;

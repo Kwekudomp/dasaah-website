@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { SectionHeader } from "@/components/ui/section-header";
 import { FadeIn } from "@/components/ui/fade-in";
 import { TEAM } from "@/lib/data";
@@ -18,6 +19,7 @@ export function Leadership() {
                 name={member.name}
                 role={member.role}
                 bio={member.bio}
+                image={member.image}
               />
             </FadeIn>
           ))}
@@ -35,9 +37,10 @@ interface TeamCardProps {
   name: string;
   role: string;
   bio: string;
+  image: string;
 }
 
-function TeamCard({ name, role, bio }: TeamCardProps) {
+function TeamCard({ name, role, bio, image }: TeamCardProps) {
   const [expanded, setExpanded] = useState(false);
 
   const truncated = bio.length > 150 ? bio.slice(0, 150) + "..." : bio;
@@ -45,8 +48,14 @@ function TeamCard({ name, role, bio }: TeamCardProps) {
 
   return (
     <div className="bg-steel-blue/30 rounded-lg overflow-hidden">
-      {/* Image placeholder — will be replaced with actual photos later */}
-      <div className="bg-steel-blue h-64 w-full" />
+      <div className="relative h-72 w-full bg-steel-blue">
+        <Image
+          src={image}
+          alt={name}
+          fill
+          className="object-cover object-top"
+        />
+      </div>
 
       <div className="p-6">
         <h3 className="font-heading font-bold text-white text-xl">{name}</h3>

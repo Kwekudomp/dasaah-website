@@ -19,7 +19,7 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Dasaah Website <onboarding@resend.dev>",
+        from: "DASAAH Website <onboarding@resend.dev>",
         to: "dasaah137@gmail.com",
         subject: `New inquiry from ${name} — ${service || "General"}`,
         html: `

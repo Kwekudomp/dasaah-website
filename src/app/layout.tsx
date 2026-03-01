@@ -3,6 +3,7 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import WhatsAppButton from "@/components/whatsapp-button";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -17,7 +18,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Dasaah Company Limited | Construction, Procurement & Services",
+  title: "DASAAH Company Limited | Construction, Procurement & Services",
   description:
     "Full-service field marketing, real estate, facility management, procurement and cleaning company in Ghana.",
 };
@@ -33,6 +34,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );

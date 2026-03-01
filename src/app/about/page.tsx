@@ -3,9 +3,9 @@ import { FadeIn } from "@/components/ui/fade-in";
 import { CORE_VALUES } from "@/lib/data";
 
 export const metadata = {
-  title: "About | Dasaah Company Limited",
+  title: "About | DASAAH Company Limited",
   description:
-    "Learn about Dasaah Company Limited — our vision, mission, and core values driving construction, procurement, and facility management in Ghana.",
+    "Learn about DASAAH Company Limited — our vision, mission, and core values driving construction, procurement, and facility management in Ghana.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="bg-navy pt-32 pb-16">
         <div className="mx-auto max-w-7xl px-6">
           <h1 className="font-heading text-4xl md:text-5xl font-extrabold text-white">
-            About Dasaah
+            About DASAAH
           </h1>
           <p className="text-brand-slate text-lg mt-4 max-w-2xl">
             A full-service field marketing, real estate, facility management,

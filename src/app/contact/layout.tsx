@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Contact | Dasaah Company Limited",
+  title: "Contact | DASAAH Company Limited",
   description:
-    "Get in touch with Dasaah Company Limited. Request a quote for construction, procurement, cleaning, and more.",
+    "Get in touch with DASAAH Company Limited. Request a quote for construction, procurement, cleaning, and more.",
 };
 
 export default function ContactLayout({

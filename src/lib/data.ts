@@ -13,8 +13,8 @@ import {
 /* ------------------------------------------------------------------ */
 
 export const COMPANY = {
-  name: "Dasaah Company Limited",
-  shortName: "Dasaah",
+  name: "DASAAH Company Limited",
+  shortName: "DASAAH",
   tagline: "Building Ghana's Future.",
   subtitle: "Full-service construction, procurement & facility management.",
   email: "dasaah137@gmail.com",
@@ -72,7 +72,7 @@ export const SERVICES: Service[] = [
     shortDescription:
       "Reliable fuel distribution and petroleum product marketing across Ghana.",
     fullDescription:
-      "Dasaah Company Limited provides comprehensive oil and gas marketing services, ensuring reliable distribution of petroleum products to businesses and consumers across Ghana. We leverage strong industry partnerships and logistics expertise to deliver fuel and lubricants on time and at competitive prices.",
+      "DASAAH Company Limited provides comprehensive oil and gas marketing services, ensuring reliable distribution of petroleum products to businesses and consumers across Ghana. We leverage strong industry partnerships and logistics expertise to deliver fuel and lubricants on time and at competitive prices.",
     icon: Flame,
     benefits: [
       "Dependable supply chain for petroleum products",
@@ -102,7 +102,7 @@ export const SERVICES: Service[] = [
     shortDescription:
       "Infrastructure and building construction to the highest engineering standards.",
     fullDescription:
-      "Dasaah Company Limited undertakes road construction, building projects, and civil engineering works across Ghana. Our experienced team and modern equipment enable us to deliver infrastructure projects that meet the highest engineering standards, supporting national development and community growth.",
+      "DASAAH Company Limited undertakes road construction, building projects, and civil engineering works across Ghana. Our experienced team and modern equipment enable us to deliver infrastructure projects that meet the highest engineering standards, supporting national development and community growth.",
     icon: Route,
     benefits: [
       "Experienced engineering and construction teams",
@@ -132,7 +132,7 @@ export const SERVICES: Service[] = [
     shortDescription:
       "Bulk procurement and supply of construction materials, equipment, and general goods.",
     fullDescription:
-      "Dasaah Company Limited offers procurement and supply services for construction materials, industrial equipment, office supplies, and general goods. We source products from trusted manufacturers and suppliers, delivering them to your site or facility at competitive rates with consistent quality assurance.",
+      "DASAAH Company Limited offers procurement and supply services for construction materials, industrial equipment, office supplies, and general goods. We source products from trusted manufacturers and suppliers, delivering them to your site or facility at competitive rates with consistent quality assurance.",
     icon: ShoppingCart,
     benefits: [
       "Bulk procurement at competitive wholesale rates",
@@ -173,14 +173,14 @@ export const TEAM: TeamMember[] = [
   {
     name: "Daniel Asaah",
     role: "Managing Partner",
-    bio: "Daniel Asaah is a driven entrepreneur with a passion for problem-solving and building sustainable businesses. With extensive experience as a PRO (Public Relations Officer) and business development professional, Daniel has honed his skills in stakeholder engagement, operations management, and strategic planning. He is a co-founder of Caswell Capital Partners Limited and has a strong background in events planning and management. Daniel brings vision, resilience, and hands-on leadership to Dasaah Company Limited.",
-    image: "/images/team/daniel-asaah.jpg",
+    bio: "Daniel Asaah is a driven entrepreneur with a passion for problem-solving and building sustainable businesses. With extensive experience as a PRO (Public Relations Officer) and business development professional, Daniel has honed his skills in stakeholder engagement, operations management, and strategic planning. He is a co-founder of Caswell Capital Partners Limited and has a strong background in events planning and management. Daniel brings vision, resilience, and hands-on leadership to DASAAH Company Limited.",
+    image: "/images/team/daniel-asaah.png",
   },
   {
     name: "Allan Kweku Otoo Idun",
     role: "Managing Partner",
-    bio: "Allan Kweku Otoo Idun is a skilled project manager and marketing professional with a track record of delivering results across diverse industries. He brings valuable experience from his work with MakeMake Engineering and other ventures. Allan holds qualifications from the University of Pune and GIMPA (Ghana Institute of Management and Public Administration), equipping him with a strong foundation in management, strategy, and business operations. His analytical approach and commitment to excellence drive Dasaah's project delivery and client relationships.",
-    image: "/images/team/allan-idun.jpg",
+    bio: "Allan Kweku Otoo Idun is a skilled project manager and marketing professional with a track record of delivering results across diverse industries. He brings valuable experience from his work with MakeMake Engineering and other ventures. Allan holds qualifications from the University of Pune and GIMPA (Ghana Institute of Management and Public Administration), equipping him with a strong foundation in management, strategy, and business operations. His analytical approach and commitment to excellence drive DASAAH's project delivery and client relationships.",
+    image: "/images/team/allan-idun.png",
   },
 ];
 

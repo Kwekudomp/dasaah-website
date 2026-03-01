@@ -1,15 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { SectionHeader } from "@/components/ui/section-header";
 import { FadeIn } from "@/components/ui/fade-in";
 import { CLIENTS } from "@/lib/data";
-
-const PLACEHOLDER_PROJECTS = [
-  { title: "Highway Construction", category: "Construction", large: true },
-  { title: "Office Complex Renovation", category: "Real Estate", large: false },
-  { title: "Industrial Cleaning Contract", category: "Cleaning", large: false },
-];
 
 export function FeaturedProjects() {
   return (
@@ -17,28 +12,18 @@ export function FeaturedProjects() {
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader label="OUR WORK" title="Featured Projects" />
 
-        {/* Project gallery — masonry-style grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {PLACEHOLDER_PROJECTS.map((project, index) => (
-            <FadeIn key={project.title} delay={index * 0.1}>
-              <div
-                className={`relative rounded-lg overflow-hidden group bg-steel-blue ${
-                  project.large ? "md:row-span-2 min-h-[400px]" : "min-h-[190px]"
-                }`}
-              >
-                {/* Hover overlay */}
-                <div className="absolute inset-0 bg-navy/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                  <div>
-                    <p className="text-white font-heading font-bold text-xl">
-                      {project.title}
-                    </p>
-                    <p className="text-amber text-sm mt-1">{project.category}</p>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-          ))}
-        </div>
+        {/* Project showcase image */}
+        <FadeIn>
+          <div className="relative rounded-lg overflow-hidden">
+            <Image
+              src="/images/projects/recent-projects.jpg"
+              alt="DASAAH recent projects — Ayawaso West Municipal Assembly, Caswell Capital Partners, Carbon AV, Anthill Company"
+              width={1200}
+              height={800}
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+        </FadeIn>
 
         {/* Client logos strip */}
         <div className="mt-12 pt-8 border-t border-white/10">

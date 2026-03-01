@@ -1,7 +1,7 @@
 import { ServicesOverviewGrid } from "@/components/sections/services-overview-grid";
 
 export const metadata = {
-  title: "Services | Dasaah Company Limited",
+  title: "Services | DASAAH Company Limited",
   description:
     "Explore our full range of services — oil & gas marketing, real estate development, construction, import/export, procurement, and cleaning.",
 };

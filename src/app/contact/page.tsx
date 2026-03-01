@@ -228,7 +228,7 @@ export default function ContactPage() {
                   style={{ border: 0 }}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Dasaah Company Location"
+                  title="DASAAH Company Location"
                 />
               </div>
             </div>

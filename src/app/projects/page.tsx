@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const CATEGORIES = [
   "All",
@@ -94,8 +95,14 @@ export default function ProjectsPage() {
                 key={project.title}
                 className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
               >
-                {/* Image placeholder */}
-                <div className="bg-steel-blue h-48 w-full" />
+                <div className="relative h-48 w-full bg-steel-blue">
+                  <Image
+                    src="/images/projects/recent-projects.jpg"
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
 
                 {/* Content */}
                 <div className="p-6">

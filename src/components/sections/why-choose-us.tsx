@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { SectionHeader } from "@/components/ui/section-header";
 import { FadeIn } from "@/components/ui/fade-in";
 import { WHY_CHOOSE_US } from "@/lib/data";
@@ -18,7 +19,15 @@ export function WhyChooseUs() {
         {/* Row 1: Image left, text right */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <FadeIn direction="left">
-            <div className="bg-steel-blue rounded-lg min-h-[300px]" />
+            <div className="relative rounded-lg overflow-hidden aspect-[4/3]">
+              <Image
+                src="/images/why-choose-us/construction-workers.jpg"
+                alt="DASAAH construction team on site"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
           </FadeIn>
 
           <FadeIn direction="right" delay={0.2}>
@@ -53,7 +62,15 @@ export function WhyChooseUs() {
           </FadeIn>
 
           <FadeIn direction="right">
-            <div className="bg-steel-blue rounded-lg min-h-[300px]" />
+            <div className="relative rounded-lg overflow-hidden aspect-[4/3]">
+              <Image
+                src="/images/why-choose-us/engineering-blueprints.jpg"
+                alt="Engineering blueprints and planning"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
           </FadeIn>
         </div>
       </div>
